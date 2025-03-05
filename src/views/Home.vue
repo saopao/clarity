@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <h1 class="page-title">欢迎来到我们的网站哈哈x</h1>
+    <h1 class="page-title">欢迎来到我们的网站哈哈xy</h1>
     <div class="features-grid">
       <div class="feature-card">
         <i class="fas fa-rocket"></i>

@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -14,8 +13,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        404: resolve(__dirname, 'public/404.html')
+        main: 'index.html',
+        404: '404.html'
       }
     }
   }
